@@ -12,3 +12,5 @@ current.next = newElem;
 then we would increase size here:
 this.size++
 and this is why having a tail variable which makes life so much easier 😜
+
+Head() Tail() and Length() are basically getters
