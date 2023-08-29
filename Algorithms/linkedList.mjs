@@ -12,7 +12,7 @@ export class linkedList {
     this.size = 0;
   }
   //this function adds a new element to our link list
-  Apend(elem) {
+  Append(elem) {
     // creating a new instant on Node
     let newElem = new Node(elem);
     //first check if the list is empty and if yes set the new elem to be the head and tail
