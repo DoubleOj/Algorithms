@@ -12,7 +12,7 @@ export class linkedList {
     this.size = 0;
   }
   //this function adds a new element to our link list
-  Add(elem) {
+  Apend(elem) {
     // creating a new instant on Node
     let newElem = new Node(elem);
     //first check if the list is empty and if yes set the new elem to be the head and tail
@@ -52,6 +52,7 @@ export class linkedList {
   Tail() {
     console.log(this.tail.elem);
   }
+  //prints out the
   Size() {
     console.log(this.size);
   }
