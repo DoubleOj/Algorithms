@@ -27,5 +27,8 @@ let list3 = new linkedList();
 list3.Append("elem1");
 list3.Append("elem2");
 list3.Head();
+list3.Prepend("new elem1");
+console.log("here is the new head");
+list3.Head();
 list3.Tail();
 list3.Size();
