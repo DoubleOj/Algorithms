@@ -3,7 +3,7 @@ import linSearch from "./LinearSearch.mjs";
 import { linkedList } from "./linkedList.mjs";
 let arr1 = [1, 2, 3, 4, 5]; //sorted odd easy
 let arr2 = [15, 22, 43, 56, 62, 78, 89, 94, 107, 118]; //sorted even medium
-//hello there
+
 console.log("-----linear search results-----");
 console.log(linSearch(3, arr1));
 console.log(linSearch(6, arr1));
